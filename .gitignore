@@ -1,0 +1,10 @@
+*.pt
+*.png
+*.pdf
+case*
+*log*
+datafiles
+outputs*
+*.onnx
+.vscode
+__pycache__
