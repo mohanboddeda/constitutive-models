@@ -1,0 +1,18 @@
+defaults:
+  - _self_
+  - data : dataConfig
+  - model : mlp
+  - trainer : physics
+
+max_epochs: 1000
+batch_size: 128
+
+patience: 10
+check_val_every_n_epoch : 3
+
+log_every_n_steps: 400
+
+device: gpu
+num_workers: 4
+
+export_onnx: false

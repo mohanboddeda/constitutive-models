@@ -1,0 +1,14 @@
+seed: 42
+
+data_path_X: ./data/X_3D_carreau_yasuda.pt
+data_path_Y: ./data/Y_3D_carreau_yasuda.pt
+
+model:
+  layers: [128, 128, 6]  # for example input size -> hidden layers -> output size
+
+training:
+  num_epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+
+output_dir: ./trained_models

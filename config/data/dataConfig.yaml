@@ -1,0 +1,27 @@
+# conf/config.yaml
+
+# Standardwerte für alle Läufe
+defaults:
+  - _self_
+
+# Füge diesen Block hinzu, um das Ausgabeverzeichnis zu steuern
+hydra:
+  job:
+    chdir: False # Verhindert den Wechsel in ein 'outputs/...' Verzeichnis
+
+# Konfiguration für die Datengenerierung
+constitutive_eq: "carreau_yasuda"  # Optionen: "carreau_yasuda", "maxwell_B", "oldroyd_B"
+
+# Parameter für die Datengenerierung
+n_samples: 1000
+max_vorticity_ratio: 2.0
+max_shear_rate: 10.0
+
+#Sollen 2 oder 3 dimensionale L und T erzeugt werden
+dim: 3
+
+# Einstellungen für die Ausgabepfade
+# Diese werden jetzt relativ zum Hauptverzeichnis erstellt
+paths:
+  images: "images"
+  data: "datafiles"
