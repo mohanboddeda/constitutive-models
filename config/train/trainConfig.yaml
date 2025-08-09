@@ -1,0 +1,20 @@
+# This file provides all configurable parameters your training script needs:
+
+
+seed: 42
+
+model_type: carreau_yasuda  # options: carreau_yasuda, maxwell_B, oldroyd_B
+
+data_path_X: ./datafiles/X_3D_carreau_yasuda.pt   # File path to input features (X).
+data_path_Y: ./datafiles/Y_3D_carreau_yasuda.pt   # File path to target outputs (Y).
+
+model:
+  layers: [128, 128, 1]  # for example input size -> hidden layers -> output size : Defines the architecture of the neural network.
+
+training:
+  num_epochs: 50  # Number of training iterations over the dataset (50)
+  batch_size: 32  # How many samples per batch (32).
+  learning_rate: 0.001  # Step size for optimizer (0.001).
+  patience: 10  # add this for early stopping
+
+output_dir: ./trained_models
