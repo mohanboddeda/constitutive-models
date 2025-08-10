@@ -9,8 +9,8 @@ Um dieses Projekt auszuführen, benötigst du eine **Conda**-Installation (Anaco
 Klone zuerst das Repository auf deinen lokalen Rechner und wechsle in das Verzeichnis:
 
 ```bash
-git clone ssh://git@git.ies.uni-kassel.de:2222/rheoml/constitutivepinn.git
-cd constitutivepinn
+git clone https://github.com/kiranboddeda9/constitutive-models.git
+cd constitutive-models
 ```
 
 ### 2\. Conda-Umgebung erstellen
@@ -37,6 +37,8 @@ Jetzt ist alles bereit\! Du kannst nun die Skripte des Projekts ausführen. Zum 
 
 ```bash
 python generateMaxwell.py dim=3
+      oder
+python train_model.py 
 ```
 
 -----
