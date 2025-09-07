@@ -4,7 +4,7 @@ defaults:
   - model : mlp
   - trainer : physics
 
-max_epochs: 1000
+max_epochs: 500
 batch_size: 128
 
 patience: 10

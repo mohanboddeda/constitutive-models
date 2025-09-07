@@ -112,6 +112,11 @@ class physicsLoss(nn.Module):
         self.a = 1.25
 
     def forward(self, x, preds):
+        # Ensure [batch, 3, 3] shape
+        if x.ndim == 3 and x.shape[1] != x.shape[2] and x.shape[1] == 9:
+           x = x.view(-1, 3, 3)
+        elif x.ndim == 2 and x.shape[1] == 9:
+             x = x.view(-1, 3, 3)   
         # Compute invariants
         D = 0.5 * (x + x.mT) 
         D_squared = D @ D
