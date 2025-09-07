@@ -3,6 +3,8 @@
 # Standardwerte für alle Läufe
 defaults:
   - _self_
+  
+use_projection: false  # default = SciPy, set true for projection
 
 # Füge diesen Block hinzu, um das Ausgabeverzeichnis zu steuern
 hydra:
@@ -13,9 +15,9 @@ hydra:
 constitutive_eq: "carreau_yasuda"  # Optionen: "carreau_yasuda", "maxwell_B", "oldroyd_B"
 
 # Parameter für die Datengenerierung
-n_samples: 1000
-max_vorticity_ratio: 2.0
-max_shear_rate: 10.0
+n_samples: 2000
+max_vorticity_ratio: 5.0
+max_shear_rate: 50.0
 
 #Sollen 2 oder 3 dimensionale L und T erzeugt werden
 dim: 3
