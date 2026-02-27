@@ -1,0 +1,4 @@
+_target_: "src.models.SimpleTransformer"
+input_dim: 6
+d_model: 256
+num_layers: 10
