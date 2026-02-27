@@ -1,4 +1,0 @@
-_target_: "src.trainer.PhysicsModule"
-model: ${model}
-lr: 1e-5
-weight_decay: 1e-4

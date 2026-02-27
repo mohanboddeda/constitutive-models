@@ -1,7 +1,0 @@
-_target_: "src.models.MLP"
-input_dim: [3,3]
-hidden_dim: 256
-num_layers: 10
-output_dim: 1
-dropout: 0.1
-activation: "relu"
