@@ -1,29 +1,23 @@
-# conf/config.yaml
+# config/data/dataConfig.yaml
+seed: 42
+stable: true               # true → stable data generation, false → unstable (ignored in this script)
+constitutive_eq: "maxwell_B"  # Options: "maxwell_B", "oldroyd_B", "ptt_exponential"
 
-# Standardwerte für alle Läufe
-defaults:
-  - _self_
-  
-use_projection: false  # default = SciPy, set true for projection
+use_projection: false
+target_cond: 1.0     # conditioning target
+stage_range: null    # [1.0, 1.2]
 
-# Füge diesen Block hinzu, um das Ausgabeverzeichnis zu steuern
-hydra:
-  job:
-    chdir: False # Verhindert den Wechsel in ein 'outputs/...' Verzeichnis
-
-# Konfiguration für die Datengenerierung
-constitutive_eq: "carreau_yasuda"  # Optionen: "carreau_yasuda", "maxwell_B", "oldroyd_B"
-
-# Parameter für die Datengenerierung
-n_samples: 2000
-max_vorticity_ratio: 5.0
-max_shear_rate: 50.0
-
-#Sollen 2 oder 3 dimensionale L und T erzeugt werden
+n_samples: 10000
 dim: 3
+eta0: 1.0
+lam: 0.5
+lam_r: 1.0                  # Only needed for oldroyd_B
+max_vorticity_ratio: 1
 
-# Einstellungen für die Ausgabepfade
-# Diese werden jetzt relativ zum Hauptverzeichnis erstellt
 paths:
   images: "images"
   data: "datafiles"
+
+hydra:
+  job:
+    chdir: False

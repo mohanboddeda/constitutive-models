@@ -1,0 +1,26 @@
+FLOW TYPE: Uniaxial Extension
+
+--- Velocity Gradient Tensor (L) ---
+  Shape:      (1958, 9)
+  Count:      17622
+  Mean:       5.1193e-03
+  Std Dev:    5.0706e-01
+  Min:        -1.4678e+00
+  25% (Q1):   -3.6897e-01
+  Median(Q2): -3.6435e-02
+  75% (Q3):   3.7341e-01
+  IQR:        7.4238e-01
+  Max:        1.5538e+00
+
+--- Stress Tensor (T) ---
+  Shape:      (1958, 6)
+  Count:      11748
+  Mean:       7.9048e-01
+  Std Dev:    1.9578e+00
+  Min:        -4.8339e+00
+  25% (Q1):   -4.3204e-01
+  Median(Q2): 3.9498e-01
+  75% (Q3):   1.9725e+00
+  IQR:        2.4045e+00
+  Max:        9.7178e+00
+

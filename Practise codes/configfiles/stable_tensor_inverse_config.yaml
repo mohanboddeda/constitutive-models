@@ -1,0 +1,57 @@
+# ===========================
+# GLOBAL SETTINGS
+# ===========================
+seed: 42
+
+# Model type selection
+#   "maxwell_B" → Stable Maxwell-B dataset
+model_type: maxwell_B
+
+# Physics parameters (same as forward config)
+eta0: 1.0
+lam: 0.5
+lam_r: 1.0
+
+# ===========================
+# DATA SETTINGS
+# ===========================
+data:
+  scaling_mode: standard
+  paths:
+    maxwell_B:
+      x: datafiles/X_3D_maxwell_B_stable.pt
+      y: datafiles/Y_3D_maxwell_B_stable.pt
+    oldroyd_B:
+      x: datafiles/X_3D_oldroyd_B_stable.pt
+      y: datafiles/Y_3D_oldroyd_B_stable.pt
+    ptt_exponential:
+      x: datafiles/X_3D_ptt_exponential_stable.pt
+      y: datafiles/Y_3D_ptt_exponential_stable.pt
+
+# ===========================
+# NEURAL NETWORK ARCHITECTURE (Inverse)
+# ===========================
+model:
+  # Input dim = 6 (stress components)
+  # Output dim = 9 (velocity gradient components)
+  forward_layers: [9, 128, 128, 128, 6]
+  inverse_layers: [6, 128, 128, 128, 9]
+  forward_model_ckpt_path: ./trained_models/stable_models/maxwell_B_stable_lambda_0.3/trained_params.msgpack
+  dropout: 0
+  activation: tanh
+
+# ===========================
+# TRAINING SETTINGS
+# ===========================
+training:
+  lambda_phys: [0.3] 
+  num_epochs: 500
+  batch_size: 64
+  learning_rate: 1e-4
+  weight_decay: 1e-4
+
+# ===========================
+# OUTPUT SETTINGS
+# ===========================
+output_dir: ./trained_models/inverse_models
+

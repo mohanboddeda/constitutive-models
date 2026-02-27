@@ -1,0 +1,162 @@
+
+
+==================== REPORT: maxwell_B_stable ====================
+--- Velocity Gradient (L) ---
+  Shape:      (10000, 9)
+  Count:      90000
+  Mean:       2.9527e-04
+  Std Dev:    1.1023e+00
+  Min:        -5.0777e+00
+  25% (Q1):   -5.3662e-01
+  Median(Q2): 4.0255e-02
+  75% (Q3):   5.8628e-01
+  IQR:        1.1229e+00
+  Max:        5.1024e+00
+  Range:      [-5.0777e+00, 5.1024e+00]
+--- Stress Tensor (T) ---
+  Shape:      (10000, 6)
+  Count:      60000
+  Mean:       1.3747e-01
+  Std Dev:    5.0585e-01
+  Min:        -3.4183e+00
+  25% (Q1):   -1.7689e-01
+  Median(Q2): 1.0616e-01
+  75% (Q3):   3.9119e-01
+  IQR:        5.6808e-01
+  Max:        5.3570e+00
+  Range:      [-3.4183e+00, 5.3570e+00]
+
+
+==================== REPORT: maxwell_B_stable ====================
+--- Velocity Gradient (L) ---
+  Shape:      (10000, 9)
+  Count:      90000
+  Mean:       2.9527e-04
+  Std Dev:    1.1023e+00
+  Min:        -5.0777e+00
+  25% (Q1):   -5.3662e-01
+  Median(Q2): 4.0255e-02
+  75% (Q3):   5.8628e-01
+  IQR:        1.1229e+00
+  Max:        5.1024e+00
+  Range:      [-5.0777e+00, 5.1024e+00]
+--- Stress Tensor (T) ---
+  Shape:      (10000, 6)
+  Count:      60000
+  Mean:       1.3747e-01
+  Std Dev:    5.0585e-01
+  Min:        -3.4183e+00
+  25% (Q1):   -1.7689e-01
+  Median(Q2): 1.0616e-01
+  75% (Q3):   3.9119e-01
+  IQR:        5.6808e-01
+  Max:        5.3570e+00
+  Range:      [-3.4183e+00, 5.3570e+00]
+
+
+==================== REPORT: maxwell_B_stable ====================
+--- Velocity Gradient (L) ---
+  Shape:      (10000, 9)
+  Count:      90000
+  Mean:       2.9527e-04
+  Std Dev:    1.1023e+00
+  Min:        -5.0777e+00
+  25% (Q1):   -5.3662e-01
+  Median(Q2): 4.0255e-02
+  75% (Q3):   5.8628e-01
+  IQR:        1.1229e+00
+  Max:        5.1024e+00
+  Range:      [-5.0777e+00, 5.1024e+00]
+--- Stress Tensor (T) ---
+  Shape:      (10000, 6)
+  Count:      60000
+  Mean:       1.3747e-01
+  Std Dev:    5.0585e-01
+  Min:        -3.4183e+00
+  25% (Q1):   -1.7689e-01
+  Median(Q2): 1.0616e-01
+  75% (Q3):   3.9119e-01
+  IQR:        5.6808e-01
+  Max:        5.3570e+00
+  Range:      [-3.4183e+00, 5.3570e+00]
+
+
+==================== REPORT: maxwell_B_stable ====================
+--- Velocity Gradient (L) ---
+  Shape:      (10000, 9)
+  Count:      90000
+  Mean:       2.9527e-04
+  Std Dev:    1.1023e+00
+  Min:        -5.0777e+00
+  25% (Q1):   -5.3662e-01
+  Median(Q2): 4.0255e-02
+  75% (Q3):   5.8628e-01
+  IQR:        1.1229e+00
+  Max:        5.1024e+00
+  Range:      [-5.0777e+00, 5.1024e+00]
+--- Stress Tensor (T) ---
+  Shape:      (10000, 6)
+  Count:      60000
+  Mean:       1.3747e-01
+  Std Dev:    5.0585e-01
+  Min:        -3.4183e+00
+  25% (Q1):   -1.7689e-01
+  Median(Q2): 1.0616e-01
+  75% (Q3):   3.9119e-01
+  IQR:        5.6808e-01
+  Max:        5.3570e+00
+  Range:      [-3.4183e+00, 5.3570e+00]
+
+
+==================== REPORT: maxwell_B_stable ====================
+--- Velocity Gradient (L) ---
+  Shape:      (10000, 9)
+  Count:      90000
+  Mean:       2.9527e-04
+  Std Dev:    1.1023e+00
+  Min:        -5.0777e+00
+  25% (Q1):   -5.3662e-01
+  Median(Q2): 4.0255e-02
+  75% (Q3):   5.8628e-01
+  IQR:        1.1229e+00
+  Max:        5.1024e+00
+  Range:      [-5.0777e+00, 5.1024e+00]
+--- Stress Tensor (T) ---
+  Shape:      (10000, 6)
+  Count:      60000
+  Mean:       1.3747e-01
+  Std Dev:    5.0585e-01
+  Min:        -3.4183e+00
+  25% (Q1):   -1.7689e-01
+  Median(Q2): 1.0616e-01
+  75% (Q3):   3.9119e-01
+  IQR:        5.6808e-01
+  Max:        5.3570e+00
+  Range:      [-3.4183e+00, 5.3570e+00]
+
+
+==================== REPORT: maxwell_B_stable ====================
+--- Velocity Gradient (L) ---
+  Shape:      (100000, 9)
+  Count:      900000
+  Mean:       -1.0882e-03
+  Std Dev:    1.1052e+00
+  Min:        -5.1326e+00
+  25% (Q1):   -5.5402e-01
+  Median(Q2): 4.2565e-02
+  75% (Q3):   5.9144e-01
+  IQR:        1.1455e+00
+  Max:        5.1768e+00
+  Range:      [-5.1326e+00, 5.1768e+00]
+--- Stress Tensor (T) ---
+  Shape:      (100000, 6)
+  Count:      600000
+  Mean:       1.3724e-01
+  Std Dev:    5.0653e-01
+  Min:        -3.5253e+00
+  25% (Q1):   -1.7559e-01
+  Median(Q2): 1.0671e-01
+  75% (Q3):   3.9692e-01
+  IQR:        5.7251e-01
+  Max:        6.3847e+00
+  Range:      [-3.5253e+00, 6.3847e+00]

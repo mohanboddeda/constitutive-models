@@ -1,0 +1,61 @@
+# ===========================
+# GLOBAL SETTINGS
+# ===========================
+seed: 42
+# Default stage for 'single_stage' mode. Ignored if mode='multi_stage'.
+stage_tag: "1.0_2.4"
+
+# Mode selection: "single_stage" or "multi_stage"
+mode: multi_stage
+
+# Model type: "maxwell_B", "oldroyd_B", "ptt_exponential"
+model_type: maxwell_B
+
+# Checkpoint to load (for transfer learning or resuming)
+transfer_checkpoint: null
+
+# Solver parameters (Must match data generation)
+eta0: 1.0
+lam: 0.5
+lam_r: 1.0
+
+# ===========================
+# DATA SETTINGS
+# ===========================
+data:
+  scaling_mode: standard   # "standard" is robust for large datasets
+  replay_ratio: 0.2        # Keep this! It stabilizes the curriculum.
+
+# ===========================
+# MODEL ARCHITECTURE (Optimized for 100k samples)
+# ===========================
+model:
+  # Restored to Medium-Large capacity to leverage the 100k dataset.
+  # Input (9) -> Hidden (128) -> Hidden (128) -> Output (6)
+  layers: [9, 256, 256, 256, 6] 
+  
+  # Dropout removed. 100k samples provide enough natural variety.
+  dropout: 0.0            
+  
+  # Tanh is still excellent for smooth physics functions.
+  activation: tanh         
+
+# ===========================
+# TRAINING HYPERPARAMETERS
+# ===========================
+training:
+  # Keep physics weight moderate. 
+  # 0.1 ensures the model prioritizes fitting the rich data first.
+  lambda_phys: 0.3 
+  
+  num_epochs: 1000      
+  
+  # Increased to 64. 
+  # With ~6000 samples/stage, this gives ~100 updates per epoch (very stable).
+  batch_size: 128
+  
+  # Standard precision learning rate.
+  learning_rate: 1e-4
+  
+  # Standard regularization.
+  weight_decay: 1e-4

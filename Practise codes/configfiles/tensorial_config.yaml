@@ -1,0 +1,11 @@
+defaults:
+  - trainConfig
+
+training:
+  use_batchnorm: true
+  use_ema: true
+  ema_decay: 0.999
+  loss: mse               # better match for tensorials
+  dropout_rate: 0.05
+  weight_decay: 1e-4
+  

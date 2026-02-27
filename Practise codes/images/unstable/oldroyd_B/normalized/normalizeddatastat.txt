@@ -1,0 +1,80 @@
+=== Normalized dataset stats for oldroyd_B (Unstable) ===
+
+--- Velocity Gradient (L) - Train Norm ---
+  Shape:      (4242, 9)
+  Count:      38178
+  Mean:       -1.3689e-08
+  Std Dev:    1.0000e+00
+  Min:        -4.9546e+00
+  25% (Q1):   -5.8713e-01
+  Median(Q2): 3.2843e-03
+  75% (Q3):   5.8572e-01
+  IQR:        1.1728e+00
+  Max:        5.3544e+00
+  Range:      [-4.9546e+00, 5.3544e+00]
+
+--- Velocity Gradient (L) - Val Norm ---
+  Shape:      (1415, 9)
+  Count:      12735
+  Mean:       1.0109e-02
+  Std Dev:    1.0179e+00
+  Min:        -4.4216e+00
+  25% (Q1):   -5.8875e-01
+  Median(Q2): 1.7095e-02
+  75% (Q3):   6.1455e-01
+  IQR:        1.2033e+00
+  Max:        3.9708e+00
+  Range:      [-4.4216e+00, 3.9708e+00]
+
+--- Velocity Gradient (L) - Test Norm ---
+  Shape:      (1415, 9)
+  Count:      12735
+  Mean:       4.3932e-03
+  Std Dev:    9.9339e-01
+  Min:        -5.0517e+00
+  25% (Q1):   -5.7763e-01
+  Median(Q2): 4.9797e-03
+  75% (Q3):   5.9501e-01
+  IQR:        1.1726e+00
+  Max:        4.8522e+00
+  Range:      [-5.0517e+00, 4.8522e+00]
+
+--- Stress Tensor (T) - Train Norm ---
+  Shape:      (4242, 6)
+  Count:      25452
+  Mean:       -3.8968e-09
+  Std Dev:    1.0000e+00
+  Min:        -4.8510e+01
+  25% (Q1):   -3.3716e-02
+  Median(Q2): -3.4561e-03
+  75% (Q3):   2.1552e-02
+  IQR:        5.5268e-02
+  Max:        3.9325e+01
+  Range:      [-4.8510e+01, 3.9325e+01]
+
+--- Stress Tensor (T) - Val Norm ---
+  Shape:      (1415, 6)
+  Count:      8490
+  Mean:       -1.6327e-02
+  Std Dev:    1.8120e+00
+  Min:        -1.0344e+02
+  25% (Q1):   -3.6275e-02
+  Median(Q2): -2.9888e-03
+  75% (Q3):   2.2474e-02
+  IQR:        5.8750e-02
+  Max:        5.7962e+01
+  Range:      [-1.0344e+02, 5.7962e+01]
+
+--- Stress Tensor (T) - Test Norm ---
+  Shape:      (1415, 6)
+  Count:      8490
+  Mean:       -5.7226e-03
+  Std Dev:    9.0849e-01
+  Min:        -3.2051e+01
+  25% (Q1):   -3.5093e-02
+  Median(Q2): -3.4075e-03
+  75% (Q3):   2.1125e-02
+  IQR:        5.6217e-02
+  Max:        2.9299e+01
+  Range:      [-3.2051e+01, 2.9299e+01]
+

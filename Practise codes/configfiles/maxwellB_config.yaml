@@ -1,0 +1,16 @@
+seed: 42
+model_type: maxwell_B
+
+model:
+  layers: [9, 48, 48, 6]  # Bigger model for vector output
+  dropout: 0.2
+  activation: sigmoid
+
+training:
+  num_epochs: 500
+  batch_size: 2
+  learning_rate: 1e-4
+  patience: 500
+  lambda_phys: 0    # Start with data fit only
+
+output_dir: ./trained_models/maxwell_B

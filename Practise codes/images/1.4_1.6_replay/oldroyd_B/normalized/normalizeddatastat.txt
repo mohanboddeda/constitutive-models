@@ -1,0 +1,13 @@
+=== Stats for oldroyd_B Stage 1.4_1.6 (Replay) ===
+--- X_train Norm ---
+Mean:  -9.4779e-09
+Std:   1.0000e+00
+Min:   -3.9878e+00
+Max:   3.6929e+00
+
+--- Y_train Norm ---
+Mean:  3.5586e-08
+Std:   1.0000e+00
+Min:   -3.8474e+00
+Max:   3.2250e+00
+

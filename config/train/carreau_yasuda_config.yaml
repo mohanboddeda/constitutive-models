@@ -6,16 +6,16 @@ model_type: carreau_yasuda
 
 # Model architecture: for scalar output, last layer = 1
 model:
-  layers: [256, 256, 256, 256, 256, 256, 256, 256, 256, 256, 1]  # 10 hidden layers, output=1
-  dropout: 0.1
+  layers: [128, 128, 1]  # , output=1
+  dropout: 0.0
   activation: relu
 
 # Training hyperparameters
 training:
   num_epochs: 500
-  batch_size: 128
+  batch_size: 32
   learning_rate: 1e-2
-  patience: 50  # Early stopping patience
+  patience: 30 # Early stopping patience
   lambda_phys: 1  # << NEW physics loss weight (only used in PINN script)
   use_physics: true         # <<< Switch to false for pure data mode
   weight_decay: 1e-4

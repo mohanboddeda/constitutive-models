@@ -1,0 +1,13 @@
+=== Stats for oldroyd_B Stage 2.0_2.2 (Replay) ===
+--- X_train Norm ---
+Mean:  8.5531e-09
+Std:   1.0000e+00
+Min:   -4.0392e+00
+Max:   4.0904e+00
+
+--- Y_train Norm ---
+Mean:  7.8760e-08
+Std:   1.0000e+00
+Min:   -8.7848e+00
+Max:   5.3313e+00
+

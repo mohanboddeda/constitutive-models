@@ -1,0 +1,78 @@
+# ===========================
+# GLOBAL SETTINGS
+# ===========================
+# Random seed for reproducibility
+seed: 42
+# Stage tag for manual runs — default is stage 1.0
+stage_tag: "1.0"
+
+# Model type selection:
+#   "maxwell_B"  → Stable Maxwell-B dataset
+#   "oldroyd_B"  → Stable Oldroyd-B dataset
+#   "ptt_exponential" → Stable ptt_exponential dataset
+# Change this in the file OR override at CLI: model_type=oldroyd_B
+model_type: maxwell_B
+# Transfer learning checkpoint — default: null (start fresh)
+# Hydra lets you override from the CLI to load a specific stage checkpoint
+transfer_checkpoint: null
+# Solver parameters for stable dataset generation
+# These must match the parameters used when creating the .pt files
+eta0: 1.0    # zero-shear viscosity (Pa·s)
+lam: 0.5     # relaxation time (s)
+lam_r: 1.0   # retardation time (s) — used only for Oldroyd-B
+
+# ===========================
+# DATA SETTINGS
+# ===========================
+data:
+  # How to normalize Y data: 
+  #   "standard" = mean/std scaling (recommended)
+  #   "minmax"   = scale each component to [0, 1]
+  scaling_mode: standard
+# Curriculum training settings
+curriculum:
+   cumulative_mode: false  # if true → train on current + all previous stages combined
+
+
+# ===========================
+# NEURAL NETWORK ARCHITECTURE
+# ===========================
+model:
+  # Layers list: 
+  # First number = input dimension (9 for 3×3 L0 flattened matrix)
+  # Last number will be replaced with 6 (symmetric stress tensor components)
+  layers: [9, 128, 128, 128, 6]
+
+  # Dropout rate for regularization (0 = off)
+  dropout: 0
+
+  # Activation function options: relu, tanh, sigmoid
+  activation: tanh
+
+# ===========================
+# TRAINING SETTINGS
+# ===========================
+training:
+  # Physics-informed part of the loss:
+  #   lambda_phys > 0 → include physics loss from constitutive residual
+  #   lambda_phys = 0 → pure data-driven training
+  lambda_phys: [0.3]    # can be a list for sweep runs
+
+  # Number of epochs
+  num_epochs: 500
+
+  # Batch size
+  batch_size: 64
+
+  # Initial learning rate for AdamW optimizer
+  learning_rate: 1e-4
+
+  # L2 weight decay for AdamW
+  weight_decay: 1e-4
+
+# ===========================
+# OUTPUT SETTINGS
+# ===========================
+# Where to store figures and model checkpoints
+output_dir: ./trained_models/stable_models
+#output_dir: ./trained_models/stable/replayratio_0.2

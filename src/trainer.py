@@ -58,7 +58,7 @@ class PhysicsModule(pl.LightningModule):
         self.train_mae = MeanAbsoluteError()
         self.train_r2 = R2Score()
         self.train_physics = physicsLoss()
-        self.val_mae = MeanAbsoluteError()
+        self.val_mae = MeanAbsoluteError() 
         self.val_r2 = R2Score()
         self.val_physics = physicsLoss()
         self.test_physics = physicsLoss()

@@ -1,0 +1,80 @@
+=== Normalized dataset stats for oldroyd_B Stage: 2.2_2.4 ===
+
+--- Velocity Gradient (L) - Train Norm ---
+Shape:         (5691, 9)
+Count:         51219
+Mean:          0.0000e+00
+Std Dev:       1.0000e+00
+Min:           -3.6433e+00
+25% (Q1):      -7.1766e-01
+Median (Q2):   3.1217e-04
+75% (Q3):      7.3243e-01
+Max:           3.4104e+00
+IQR:           1.4501e+00
+Range:         [-3.6433e+00, 3.4104e+00]
+
+--- Velocity Gradient (L) - Val Norm ---
+Shape:         (1897, 9)
+Count:         17073
+Mean:          -1.5517e-03
+Std Dev:       9.9661e-01
+Min:           -3.5671e+00
+25% (Q1):      -7.2387e-01
+Median (Q2):   6.0729e-03
+75% (Q3):      7.2835e-01
+Max:           3.4972e+00
+IQR:           1.4522e+00
+Range:         [-3.5671e+00, 3.4972e+00]
+
+--- Velocity Gradient (L) - Test Norm ---
+Shape:         (1897, 9)
+Count:         17073
+Mean:          2.8693e-03
+Std Dev:       9.9190e-01
+Min:           -3.7718e+00
+25% (Q1):      -7.1930e-01
+Median (Q2):   1.8424e-02
+75% (Q3):      7.2964e-01
+Max:           3.4895e+00
+IQR:           1.4489e+00
+Range:         [-3.7718e+00, 3.4895e+00]
+
+--- Stress Tensor (T) - Train Norm ---
+Shape:         (5691, 6)
+Count:         34146
+Mean:          -1.9059e-07
+Std Dev:       1.0000e+00
+Min:           -1.4721e+01
+25% (Q1):      -4.1857e-01
+Median (Q2):   9.4669e-02
+75% (Q3):      5.6128e-01
+Max:           1.1298e+01
+IQR:           9.7984e-01
+Range:         [-1.4721e+01, 1.1298e+01]
+
+--- Stress Tensor (T) - Val Norm ---
+Shape:         (1897, 6)
+Count:         11382
+Mean:          3.5883e-04
+Std Dev:       1.0164e+00
+Min:           -1.0698e+01
+25% (Q1):      -4.1754e-01
+Median (Q2):   1.1244e-01
+75% (Q3):      5.6077e-01
+Max:           9.0014e+00
+IQR:           9.7831e-01
+Range:         [-1.0698e+01, 9.0014e+00]
+
+--- Stress Tensor (T) - Test Norm ---
+Shape:         (1897, 6)
+Count:         11382
+Mean:          -1.0782e-02
+Std Dev:       1.0792e+00
+Min:           -1.3861e+01
+25% (Q1):      -4.1818e-01
+Median (Q2):   9.1295e-02
+75% (Q3):      5.6325e-01
+Max:           1.0861e+01
+IQR:           9.8144e-01
+Range:         [-1.3861e+01, 1.0861e+01]
+

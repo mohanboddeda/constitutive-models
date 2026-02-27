@@ -1,0 +1,26 @@
+FLOW TYPE: Biaxial Extension
+
+--- Velocity Gradient Tensor (L) ---
+  Shape:      (14805, 9)
+  Count:      133245
+  Mean:       2.9017e-04
+  Std Dev:    4.5434e-01
+  Min:        -1.2703e+00
+  25% (Q1):   -3.3627e-01
+  Median(Q2): 3.3997e-02
+  75% (Q3):   3.3006e-01
+  IQR:        6.6633e-01
+  Max:        1.2626e+00
+
+--- Stress Tensor (T) ---
+  Shape:      (14805, 6)
+  Count:      88830
+  Mean:       2.5867e-01
+  Std Dev:    6.4467e-01
+  Min:        -1.6967e+00
+  25% (Q1):   -2.2716e-01
+  Median(Q2): 2.4909e-01
+  75% (Q3):   7.7459e-01
+  IQR:        1.0017e+00
+  Max:        2.4913e+00
+

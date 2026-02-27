@@ -1,0 +1,53 @@
+=== Stats for mixed_flow_above Stage 1.0_1.2 (Flow Replay) ===
+--- Velocity Gradient (L) - Train Norm ---
+Shape:         (6000, 9)
+Count:         54000
+Mean:          1.6954e-09
+Std Dev:       1.0000e+00
+Min:           -4.1563e+00
+25% (Q1):      -5.1581e-01
+Median (Q2):   -1.9231e-02
+75% (Q3):      4.7249e-01
+Max:           4.3073e+00
+IQR:           9.8830e-01
+Range:         [-4.1563e+00, 4.3073e+00]
+
+--- Velocity Gradient (L) - Val Norm ---
+Shape:         (2000, 9)
+Count:         18000
+Mean:          -5.7411e-03
+Std Dev:       9.8978e-01
+Min:           -4.3067e+00
+25% (Q1):      -5.2920e-01
+Median (Q2):   -2.1329e-02
+75% (Q3):      4.6452e-01
+Max:           4.0692e+00
+IQR:           9.9371e-01
+Range:         [-4.3067e+00, 4.0692e+00]
+
+--- Velocity Gradient (L) - Test Norm ---
+Shape:         (2000, 9)
+Count:         18000
+Mean:          2.5033e-03
+Std Dev:       1.0082e+00
+Min:           -3.9482e+00
+25% (Q1):      -5.2233e-01
+Median (Q2):   -2.1641e-02
+75% (Q3):      4.8317e-01
+Max:           4.0527e+00
+IQR:           1.0055e+00
+Range:         [-3.9482e+00, 4.0527e+00]
+
+--- Stress Tensor (T) - Train Norm ---
+Shape:         (6000, 6)
+Count:         36000
+Mean:          -7.0466e-09
+Std Dev:       1.0000e+00
+Min:           -3.6258e+00
+25% (Q1):      -5.4492e-01
+Median (Q2):   -8.5461e-02
+75% (Q3):      4.5158e-01
+Max:           4.1602e+00
+IQR:           9.9650e-01
+Range:         [-3.6258e+00, 4.1602e+00]
+

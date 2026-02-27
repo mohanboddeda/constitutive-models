@@ -1,0 +1,13 @@
+seed: 42
+data:
+  dim: 3
+  constitutive_eq: maxwell_B
+model:
+  layers: [64, 64, 6]   # 6 outputs = flattened 3x3 symmetric tensor
+  dropout: 0.1
+training:
+  learning_rate: 1e-3
+  batch_size: 64
+  num_epochs: 500
+  patience: 20
+  lambda_phys: 1.0

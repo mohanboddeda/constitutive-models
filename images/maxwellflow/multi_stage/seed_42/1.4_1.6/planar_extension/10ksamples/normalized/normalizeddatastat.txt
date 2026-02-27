@@ -1,0 +1,53 @@
+=== Stats for planar_extension Stage 1.4_1.6 (Flow Replay) ===
+--- Velocity Gradient (L) - Train Norm ---
+Shape:         (7200, 9)
+Count:         64800
+Mean:          5.6366e-03
+Std Dev:       3.5953e+00
+Min:           -1.2298e+01
+25% (Q1):      -2.3925e+00
+Median (Q2):   2.5073e-03
+75% (Q3):      2.3977e+00
+Max:           1.1458e+01
+IQR:           4.7902e+00
+Range:         [-1.2298e+01, 1.1458e+01]
+
+--- Velocity Gradient (L) - Val Norm ---
+Shape:         (2400, 9)
+Count:         21600
+Mean:          3.2163e-02
+Std Dev:       3.6015e+00
+Min:           -1.1024e+01
+25% (Q1):      -2.3621e+00
+Median (Q2):   1.6583e-02
+75% (Q3):      2.4365e+00
+Max:           1.1075e+01
+IQR:           4.7986e+00
+Range:         [-1.1024e+01, 1.1075e+01]
+
+--- Velocity Gradient (L) - Test Norm ---
+Shape:         (2400, 9)
+Count:         21600
+Mean:          -7.8992e-03
+Std Dev:       3.5756e+00
+Min:           -1.1079e+01
+25% (Q1):      -2.3877e+00
+Median (Q2):   -6.3086e-03
+75% (Q3):      2.3757e+00
+Max:           1.0985e+01
+IQR:           4.7634e+00
+Range:         [-1.1079e+01, 1.0985e+01]
+
+--- Stress Tensor (T) - Train Norm ---
+Shape:         (7200, 6)
+Count:         43200
+Mean:          8.7320e-01
+Std Dev:       4.1864e+00
+Min:           -1.1285e+01
+25% (Q1):      -1.9278e+00
+Median (Q2):   3.6614e-01
+75% (Q3):      3.5446e+00
+Max:           1.4761e+01
+IQR:           5.4724e+00
+Range:         [-1.1285e+01, 1.4761e+01]
+

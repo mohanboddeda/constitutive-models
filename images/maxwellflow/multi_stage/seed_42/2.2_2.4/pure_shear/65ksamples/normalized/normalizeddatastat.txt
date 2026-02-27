@@ -1,0 +1,53 @@
+=== Stats for pure_shear Stage 2.2_2.4 (Flow Replay) ===
+--- Velocity Gradient (L) - Train Norm ---
+Shape:         (46800, 9)
+Count:         421200
+Mean:          8.1130e-03
+Std Dev:       7.7212e+00
+Min:           -2.2926e+01
+25% (Q1):      -5.4117e+00
+Median (Q2):   1.0732e-02
+75% (Q3):      5.4358e+00
+Max:           2.2596e+01
+IQR:           1.0848e+01
+Range:         [-2.2926e+01, 2.2596e+01]
+
+--- Velocity Gradient (L) - Val Norm ---
+Shape:         (15600, 9)
+Count:         140400
+Mean:          1.3970e-02
+Std Dev:       7.7085e+00
+Min:           -2.2430e+01
+25% (Q1):      -5.3804e+00
+Median (Q2):   -9.1765e-03
+75% (Q3):      5.3990e+00
+Max:           2.2784e+01
+IQR:           1.0779e+01
+Range:         [-2.2430e+01, 2.2784e+01]
+
+--- Velocity Gradient (L) - Test Norm ---
+Shape:         (15600, 9)
+Count:         140400
+Mean:          -7.6340e-03
+Std Dev:       7.7256e+00
+Min:           -2.2478e+01
+25% (Q1):      -5.3881e+00
+Median (Q2):   -5.4827e-03
+75% (Q3):      5.3760e+00
+Max:           2.3016e+01
+IQR:           1.0764e+01
+Range:         [-2.2478e+01, 2.3016e+01]
+
+--- Stress Tensor (T) - Train Norm ---
+Shape:         (46800, 6)
+Count:         280800
+Mean:          5.2769e+00
+Std Dev:       1.4092e+01
+Min:           -3.9892e+01
+25% (Q1):      -3.4096e+00
+Median (Q2):   3.2929e+00
+75% (Q3):      1.4075e+01
+Max:           6.2014e+01
+IQR:           1.7485e+01
+Range:         [-3.9892e+01, 6.2014e+01]
+

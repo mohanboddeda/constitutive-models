@@ -3,7 +3,7 @@ from numpy.linalg import cond
 from scipy.linalg import solve_sylvester
 from utils.solver_projection import solve_symmetric_sylvester_kron  # NEW import
 
-def solve_steady_state_oldroyd(L, eta0=5.28e-5, lam=1.902, lam_r=1.0,
+def solve_steady_state_oldroyd(L, eta0, lam, lam_r,
                                return_cond=False, debug=False, sample_idx=None,
                                use_projection=False):
     """

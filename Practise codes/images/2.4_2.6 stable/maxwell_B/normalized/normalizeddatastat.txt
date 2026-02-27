@@ -1,0 +1,80 @@
+=== Normalized dataset stats for maxwell_B Stage: 2.4_2.6 ===
+
+--- Velocity Gradient (L) - Train Norm ---
+Shape:         (5030, 9)
+Count:         45270
+Mean:          -1.6010e-08
+Std Dev:       1.0000e+00
+Min:           -3.7815e+00
+25% (Q1):      -7.2169e-01
+Median (Q2):   -5.5898e-03
+75% (Q3):      7.2132e-01
+Max:           3.6836e+00
+IQR:           1.4430e+00
+Range:         [-3.7815e+00, 3.6836e+00]
+
+--- Velocity Gradient (L) - Val Norm ---
+Shape:         (1677, 9)
+Count:         15093
+Mean:          -8.7347e-03
+Std Dev:       9.9978e-01
+Min:           -3.2955e+00
+25% (Q1):      -7.2951e-01
+Median (Q2):   -9.2890e-03
+75% (Q3):      7.1752e-01
+Max:           3.6081e+00
+IQR:           1.4470e+00
+Range:         [-3.2955e+00, 3.6081e+00]
+
+--- Velocity Gradient (L) - Test Norm ---
+Shape:         (1677, 9)
+Count:         15093
+Mean:          -6.1701e-03
+Std Dev:       1.0085e+00
+Min:           -3.4533e+00
+25% (Q1):      -7.2506e-01
+Median (Q2):   -1.1311e-02
+75% (Q3):      7.2352e-01
+Max:           3.4278e+00
+IQR:           1.4486e+00
+Range:         [-3.4533e+00, 3.4278e+00]
+
+--- Stress Tensor (T) - Train Norm ---
+Shape:         (5030, 6)
+Count:         30180
+Mean:          -2.2752e-08
+Std Dev:       1.0000e+00
+Min:           -3.9928e+01
+25% (Q1):      -9.8244e-02
+Median (Q2):   -3.3902e-02
+75% (Q3):      6.3610e-02
+Max:           6.1693e+01
+IQR:           1.6185e-01
+Range:         [-3.9928e+01, 6.1693e+01]
+
+--- Stress Tensor (T) - Val Norm ---
+Shape:         (1677, 6)
+Count:         10062
+Mean:          2.0970e-02
+Std Dev:       1.0458e+00
+Min:           -3.6806e+01
+25% (Q1):      -9.8256e-02
+Median (Q2):   -3.4007e-02
+75% (Q3):      6.6189e-02
+Max:           5.9676e+01
+IQR:           1.6444e-01
+Range:         [-3.6806e+01, 5.9676e+01]
+
+--- Stress Tensor (T) - Test Norm ---
+Shape:         (1677, 6)
+Count:         10062
+Mean:          6.5353e-03
+Std Dev:       1.0240e+00
+Min:           -2.7617e+01
+25% (Q1):      -9.7339e-02
+Median (Q2):   -3.3368e-02
+75% (Q3):      6.2228e-02
+Max:           5.9337e+01
+IQR:           1.5957e-01
+Range:         [-2.7617e+01, 5.9337e+01]
+

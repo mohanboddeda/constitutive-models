@@ -1,0 +1,13 @@
+
+
+==================== REPORT: maxwell_B_stable ====================
+--- Velocity Gradient (L) ---
+  Shape:      (10000, 9)
+  Mean:       2.9527e-04
+  Std Dev:    1.1023e+00
+  Range:      [-5.0777e+00, 5.1024e+00]
+--- Stress Tensor (T) ---
+  Shape:      (10000, 6)
+  Mean:       1.3747e-01
+  Std Dev:    5.0585e-01
+  Range:      [-3.4183e+00, 5.3570e+00]

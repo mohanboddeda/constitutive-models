@@ -1,0 +1,13 @@
+=== Stats for ptt_exponential Stage 1.2_1.4 (Replay) ===
+--- X_train Norm ---
+Mean:  -6.4756e-10
+Std:   1.0000e+00
+Min:   -4.1561e+00
+Max:   4.4246e+00
+
+--- Y_train Norm ---
+Mean:  1.2075e-07
+Std:   1.0000e+00
+Min:   -2.8242e+00
+Max:   3.3216e+00
+

@@ -1,0 +1,13 @@
+=== Stats for maxwell_B Stage 1.2_1.4 (Replay) ===
+--- X_train Norm ---
+Mean:  6.2990e-09
+Std:   1.0000e+00
+Min:   -4.1583e+00
+Max:   4.4299e+00
+
+--- Y_train Norm ---
+Mean:  -6.4682e-08
+Std:   1.0000e+00
+Min:   -3.4797e+00
+Max:   4.1517e+00
+
