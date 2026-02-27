@@ -1,0 +1,53 @@
+=== Stats for biaxial_extension Stage 1.0_2.4 (Flow Replay) ===
+--- Velocity Gradient (L) - Train Norm ---
+Shape:         (4457, 9)
+Count:         40113
+Mean:          -2.7579e-09
+Std Dev:       1.0000e+00
+Min:           -4.0073e+00
+25% (Q1):      -4.7428e-01
+Median (Q2):   3.4098e-02
+75% (Q3):      5.4873e-01
+Max:           4.1438e+00
+IQR:           1.0230e+00
+Range:         [-4.0073e+00, 4.1438e+00]
+
+--- Velocity Gradient (L) - Val Norm ---
+Shape:         (1486, 9)
+Count:         13374
+Mean:          1.8717e-02
+Std Dev:       1.0002e+00
+Min:           -3.9307e+00
+25% (Q1):      -4.5895e-01
+Median (Q2):   3.4514e-02
+75% (Q3):      5.6964e-01
+Max:           3.7505e+00
+IQR:           1.0286e+00
+Range:         [-3.9307e+00, 3.7505e+00]
+
+--- Velocity Gradient (L) - Test Norm ---
+Shape:         (1486, 9)
+Count:         13374
+Mean:          1.0812e-02
+Std Dev:       9.9412e-01
+Min:           -3.7845e+00
+25% (Q1):      -4.6376e-01
+Median (Q2):   3.7122e-02
+75% (Q3):      5.5907e-01
+Max:           4.0749e+00
+IQR:           1.0228e+00
+Range:         [-3.7845e+00, 4.0749e+00]
+
+--- Stress Tensor (T) - Train Norm ---
+Shape:         (4457, 6)
+Count:         26742
+Mean:          1.3980e-08
+Std Dev:       1.0000e+00
+Min:           -4.0248e+00
+25% (Q1):      -5.9998e-01
+Median (Q2):   -5.8758e-02
+75% (Q3):      5.1809e-01
+Max:           3.9114e+00
+IQR:           1.1181e+00
+Range:         [-4.0248e+00, 3.9114e+00]
+

@@ -1,0 +1,26 @@
+FLOW TYPE: Pure Shear
+
+--- Velocity Gradient Tensor (L) ---
+  Shape:      (10000, 9)
+  Count:      90000
+  Mean:       2.5037e-04
+  Std Dev:    1.7607e-01
+  Min:        -6.0823e-01
+  25% (Q1):   -1.2176e-01
+  Median(Q2): -3.6748e-05
+  75% (Q3):   1.2226e-01
+  IQR:        2.4402e-01
+  Max:        6.4294e-01
+
+--- Stress Tensor (T) ---
+  Shape:      (10000, 6)
+  Count:      60000
+  Mean:       4.8749e-02
+  Std Dev:    2.7893e-01
+  Min:        -7.2566e-01
+  25% (Q1):   -1.5925e-01
+  Median(Q2): 2.7793e-02
+  75% (Q3):   2.3527e-01
+  IQR:        3.9452e-01
+  Max:        9.7372e-01
+

@@ -1,0 +1,26 @@
+FLOW TYPE: Planar Extension
+
+--- Velocity Gradient Tensor (L) ---
+  Shape:      (1970, 9)
+  Count:      17730
+  Mean:       5.2728e-04
+  Std Dev:    5.7566e-01
+  Min:        -1.7112e+00
+  25% (Q1):   -4.1183e-01
+  Median(Q2): -5.8395e-03
+  75% (Q3):   4.1586e-01
+  IQR:        8.2769e-01
+  Max:        1.7324e+00
+
+--- Stress Tensor (T) ---
+  Shape:      (1970, 6)
+  Count:      11820
+  Mean:       6.7039e-01
+  Std Dev:    1.5912e+00
+  Min:        -3.4558e+00
+  25% (Q1):   -3.8287e-01
+  Median(Q2): 4.4500e-01
+  75% (Q3):   1.6600e+00
+  IQR:        2.0428e+00
+  Max:        6.8293e+00
+

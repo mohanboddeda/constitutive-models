@@ -1,0 +1,28 @@
+--- Velocity Gradient Tensor(L) - Unnormalized ---
+  Shape:      (374, 9)
+  Count:      3366
+  Mean:       -9.4846e-04
+  Std Dev:    3.8351e-01
+  Min:        -1.3960e+00
+  25% (Q1):   -2.6290e-01
+  Median(Q2): -3.1223e-03
+  75% (Q3):   2.8147e-01
+  IQR:        5.4436e-01
+  Max:        1.1747e+00
+
+  Range:      -1.3960e+00, 1.1747e+00
+
+--- Stress Tensor (T) - Unnormalized ---
+  Shape:      (374, 6)
+  Count:      2244
+  Mean:       4.0805e-01
+  Std Dev:    1.0799e+00
+  Min:        -2.4490e+00
+  25% (Q1):   -3.3694e-01
+  Median(Q2): 2.9330e-01
+  75% (Q3):   1.0763e+00
+  IQR:        1.4133e+00
+  Max:        5.6782e+00
+
+  Range:      -2.4490e+00, 5.6782e+00
+

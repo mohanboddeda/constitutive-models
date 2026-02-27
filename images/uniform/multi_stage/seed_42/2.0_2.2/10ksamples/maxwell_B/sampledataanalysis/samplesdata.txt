@@ -1,0 +1,103 @@
+=== multi_stage maxwell-B-uniform model (Uniform Generation) ===
+Sample 0:
+L matrix:
+[[-0.3451 -0.1019 -0.6142]
+ [ 0.7283  0.5081 -0.1766]
+ [-1.0819  0.7615 -0.163 ]]
+L norm = 1.7617e+00
+Condition number(L) = 2.3359
+
+D matrix:
+[[-0.3451  0.3132 -0.8481]
+ [ 0.3132  0.5081  0.2924]
+ [-0.8481  0.2924 -0.163 ]]
+D norm = 1.4864e+00
+Condition number(D) = 2.0378
+
+Eigenvalues(D) = [-1.2136e+00, 5.9556e-01, 6.1805e-01]
+I_D = 2.4980e-16, II_D = -1.1048e+00, III_D = -4.4671e-01
+Discriminant(D) = 9.9827e-02
+
+A matrix:
+[[ 1.1726  0.0509  0.3071]
+ [-0.3642  0.7459  0.0883]
+ [ 0.5409 -0.3807  1.0815]]
+A norm = 1.9432e+00
+Condition number(A) = 2.1834
+
+T matrix:
+[[ 0.2311  0.5807 -1.7261]
+ [ 0.5807  2.7014  0.6254]
+ [-1.7261  0.6254  1.7349]]
+T norm = 4.2162e+00
+T symmetry error Frobenius norm = 0.0000e+00
+Condition number(T) = 2.8425
+
+Sample 1:
+L matrix:
+[[ 0.4729 -0.326  -0.5662]
+ [ 0.9567 -0.4941  0.8406]
+ [ 0.0811  0.8248  0.0212]]
+L norm = 1.7899e+00
+Condition number(L) = 2.1782
+
+D matrix:
+[[ 0.4729  0.3153 -0.2425]
+ [ 0.3153 -0.4941  0.8327]
+ [-0.2425  0.8327  0.0212]]
+D norm = 1.4736e+00
+Condition number(D) = 2.1230
+
+Eigenvalues(D) = [-1.2025e+00, 5.6641e-01, 6.3609e-01]
+I_D = 2.0817e-17, II_D = -1.0857e+00, III_D = -4.3324e-01
+Discriminant(D) = 9.4325e-02
+
+A matrix:
+[[ 0.7636  0.163   0.2831]
+ [-0.4783  1.2471 -0.4203]
+ [-0.0406 -0.4124  0.9894]]
+A norm = 1.9496e+00
+Condition number(A) = 2.1612
+
+T matrix:
+[[ 2.4203  0.7417 -1.0099]
+ [ 0.7417  0.7812  1.7201]
+ [-1.0099  1.7201  1.4091]]
+T norm = 4.1846e+00
+T symmetry error Frobenius norm = 0.0000e+00
+Condition number(T) = 2.8995
+
+Sample 2:
+L matrix:
+[[ 0.5615  0.9353 -0.2835]
+ [-0.1444 -1.0099 -0.7645]
+ [ 0.6418 -0.0175  0.4485]]
+L norm = 1.8733e+00
+Condition number(L) = 2.3153
+
+D matrix:
+[[ 0.5615  0.3954  0.1792]
+ [ 0.3954 -1.0099 -0.391 ]
+ [ 0.1792 -0.391   0.4485]]
+D norm = 1.4896e+00
+Condition number(D) = 2.3745
+
+Eigenvalues(D) = [-1.2113e+00, 7.0117e-01, 5.1011e-01]
+I_D = 6.1062e-16, II_D = -1.1095e+00, III_D = -4.3324e-01
+Discriminant(D) = 9.7513e-02
+
+A matrix:
+[[ 0.7193 -0.4676  0.1417]
+ [ 0.0722  1.505   0.3823]
+ [-0.3209  0.0087  0.7758]]
+A norm = 1.9691e+00
+Condition number(A) = 2.1905
+
+T matrix:
+[[ 2.7047  0.2461  0.5895]
+ [ 0.2461 -0.5355 -1.2807]
+ [ 0.5895 -1.2807  2.3528]]
+T norm = 4.1514e+00
+T symmetry error Frobenius norm = 0.0000e+00
+Condition number(T) = 3.0373
+

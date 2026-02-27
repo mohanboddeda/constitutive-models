@@ -1,0 +1,26 @@
+FLOW TYPE: Mixed Flow Above
+
+--- Velocity Gradient Tensor (L) ---
+  Shape:      (25000, 9)
+  Count:      225000
+  Mean:       9.8821e-05
+  Std Dev:    4.2743e-01
+  Min:        -1.3314e+00
+  25% (Q1):   -2.9916e-01
+  Median(Q2): -2.5377e-02
+  75% (Q3):   3.0882e-01
+  IQR:        6.0797e-01
+  Max:        1.3079e+00
+
+--- Stress Tensor (T) ---
+  Shape:      (25000, 6)
+  Count:      150000
+  Mean:       4.1296e-01
+  Std Dev:    1.1520e+00
+  Min:        -2.5769e+00
+  25% (Q1):   -3.4930e-01
+  Median(Q2): 2.1201e-01
+  75% (Q3):   1.1610e+00
+  IQR:        1.5103e+00
+  Max:        4.4241e+00
+

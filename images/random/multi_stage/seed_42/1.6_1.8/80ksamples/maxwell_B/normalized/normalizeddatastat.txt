@@ -1,0 +1,53 @@
+=== Stats for maxwell_B Stage 1.6_1.8 (Replay) ===
+--- Velocity Gradient (L) - Train Norm ---
+Shape:         (57600, 9)
+Count:         518400
+Mean:          2.3649e-03
+Std Dev:       3.9257e+00
+Min:           -1.6708e+01
+25% (Q1):      -2.7122e+00
+Median (Q2):   3.0538e-02
+75% (Q3):      2.7734e+00
+Max:           1.6274e+01
+IQR:           5.4856e+00
+Range:         [-1.6708e+01, 1.6274e+01]
+
+--- Velocity Gradient (L) - Val Norm ---
+Shape:         (19200, 9)
+Count:         172800
+Mean:          -4.0612e-03
+Std Dev:       3.9321e+00
+Min:           -1.5793e+01
+25% (Q1):      -2.7312e+00
+Median (Q2):   2.3363e-02
+75% (Q3):      2.7647e+00
+Max:           1.5179e+01
+IQR:           5.4959e+00
+Range:         [-1.5793e+01, 1.5179e+01]
+
+--- Velocity Gradient (L) - Test Norm ---
+Shape:         (19200, 9)
+Count:         172800
+Mean:          8.6350e-03
+Std Dev:       3.9295e+00
+Min:           -1.5210e+01
+25% (Q1):      -2.7126e+00
+Median (Q2):   3.7431e-02
+75% (Q3):      2.7879e+00
+Max:           1.5477e+01
+IQR:           5.5005e+00
+Range:         [-1.5210e+01, 1.5477e+01]
+
+--- Stress Tensor (T) - Train Norm ---
+Shape:         (57600, 6)
+Count:         345600
+Mean:          1.5257e+00
+Std Dev:       5.3769e+00
+Min:           -1.8912e+01
+25% (Q1):      -2.0635e+00
+Median (Q2):   9.8336e-01
+75% (Q3):      4.8747e+00
+Max:           2.9814e+01
+IQR:           6.9382e+00
+Range:         [-1.8912e+01, 2.9814e+01]
+

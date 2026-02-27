@@ -1,0 +1,55 @@
+=== Stats for maxwell_B Stage 1.0_1.8 (Uniform Replay) ===
+NOTE: Data is normalized using Stage 1 ANCHOR stats.
+
+--- Velocity Gradient (L) - Train Norm ---
+Shape:         (667, 9)
+Count:         6003
+Mean:          1.1438e-08
+Std Dev:       1.0000e+00
+Min:           -3.4054e+00
+25% (Q1):      -6.9437e-01
+Median (Q2):   3.5392e-03
+75% (Q3):      7.0530e-01
+Max:           3.4003e+00
+IQR:           1.3997e+00
+Range:         [-3.4054e+00, 3.4003e+00]
+
+--- Velocity Gradient (L) - Val Norm ---
+Shape:         (223, 9)
+Count:         2007
+Mean:          2.6120e-03
+Std Dev:       9.6535e-01
+Min:           -3.3978e+00
+25% (Q1):      -6.5033e-01
+Median (Q2):   -1.4300e-02
+75% (Q3):      6.7032e-01
+Max:           3.2099e+00
+IQR:           1.3206e+00
+Range:         [-3.3978e+00, 3.2099e+00]
+
+--- Velocity Gradient (L) - Test Norm ---
+Shape:         (223, 9)
+Count:         2007
+Mean:          2.0608e-02
+Std Dev:       9.9702e-01
+Min:           -3.5055e+00
+25% (Q1):      -6.4372e-01
+Median (Q2):   2.1508e-02
+75% (Q3):      7.1364e-01
+Max:           3.4364e+00
+IQR:           1.3574e+00
+Range:         [-3.5055e+00, 3.4364e+00]
+
+--- Stress Tensor (T) - Train Norm ---
+Shape:         (667, 6)
+Count:         4002
+Mean:          3.6698e-08
+Std Dev:       1.0000e+00
+Min:           -3.1093e+00
+25% (Q1):      -7.3282e-01
+Median (Q2):   -8.0184e-02
+75% (Q3):      6.5293e-01
+Max:           4.4717e+00
+IQR:           1.3858e+00
+Range:         [-3.1093e+00, 4.4717e+00]
+
