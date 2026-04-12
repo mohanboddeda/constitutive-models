@@ -72,25 +72,25 @@ python TensorJAX_Flownet2net.py --config-name flow_net2net_config mode=multi_sta
 Acknowledgements and Foundational Work
 This research builds upon the extraordinary contributions of several authors in the fields of Physics-Informed Neural Networks (PINNs), complex fluid rheology, and transfer learning methodologies. While not exhaustive, this work is particularly indebted to the foundational concepts established in the following papers:
 
-Physics-Informed Neural Networks: Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 686-707.
+1. Physics-Informed Neural Networks: Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 686-707.
 
-Rheology-Informed Neural Networks: Mahmoudabadbozchelou, M., Jamali, S., & Kamani, K. (2021). Rheology-informed neural networks (RhINNs) for the characterization of complex fluids. Scientific Reports, 11(1), 1-13.
+2. Rheology-Informed Neural Networks: Mahmoudabadbozchelou, M., Jamali, S., & Kamani, K. (2021). Rheology-informed neural networks (RhINNs) for the characterization of complex fluids. Scientific Reports, 11(1), 1-13.
 
-Net2Net Transfer Learning: Chen, T., Goodfellow, I., & Shlens, J. (2016). Net2Net: Accelerating Learning via Knowledge Transfer. International Conference on Learning Representations (ICLR).
+3. Net2Net Transfer Learning: Chen, T., Goodfellow, I., & Shlens, J. (2016). Net2Net: Accelerating Learning via Knowledge Transfer. International Conference on Learning Representations (ICLR).
 
-Accelerated Training & Transfer Learning: * Yuan, X., Savarese, P., & Maire, M. (2023). Accelerated Training via Incrementally Growing Neural Networks using Variance Transfer and Learning Rate Adaptation. Advances in Neural Information Processing Systems.
+4. Accelerated Training & Transfer Learning: * Yuan, X., Savarese, P., & Maire, M. (2023). Accelerated Training via Incrementally Growing Neural Networks using Variance Transfer and Learning Rate Adaptation. Advances in Neural Information Processing Systems.
 
-Bahmani, B., & Sun, W. (2021). Training multi-objective/multi-task collocation physics-informed neural network with student/teachers transfer learnings. arXiv preprint arXiv:2107.11496.
+5. Bahmani, B., & Sun, W. (2021). Training multi-objective/multi-task collocation physics-informed neural network with student/teachers transfer learnings. arXiv preprint arXiv:2107.11496.
 
-Monaco, S., & Apiletti, D. (2023). Training physics-informed neural networks: One learning to rule them all? Results in Engineering, 18, 101023.
+6. Monaco, S., & Apiletti, D. (2023). Training physics-informed neural networks: One learning to rule them all? Results in Engineering, 18, 101023.
 
-Liu, Y., et al. (2023). Adaptive transfer learning for physics-informed neural networks. arXiv.
+7. Liu, Y., et al. (2023). Adaptive transfer learning for physics-informed neural networks. arXiv.
 
-Wang, Y., et al. (2024). Transfer Learning in Physics-Informed Neural Networks: Full Fine-Tuning, Lightweight Fine-Tuning, and Low-Rank Adaptation. arXiv preprint 2502.00782.
+8. Wang, Y., et al. (2024). Transfer Learning in Physics-Informed Neural Networks: Full Fine-Tuning, Lightweight Fine-Tuning, and Low-Rank Adaptation. arXiv preprint 2502.00782.
 
-Curriculum Learning: Bengio, Y., et al. (2009). Curriculum learning. Proceedings of the 26th Annual International Conference on Machine Learning (ICML), 41-48.
+9. Curriculum Learning: Bengio, Y., et al. (2009). Curriculum learning. Proceedings of the 26th Annual International Conference on Machine Learning (ICML), 41-48.
 
-JAX Framework: Bradbury, J., et al. (2018). JAX: Composable transformations of Python+NumPy programs (Version 0.3.13) [Software]. http://github.com/google/jax
+10. JAX Framework: Bradbury, J., et al. (2018). JAX: Composable transformations of Python+NumPy programs (Version 0.3.13) [Software]. http://github.com/google/jax
 
 Contributing
 Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you have any questions or want to suggest improvements.
