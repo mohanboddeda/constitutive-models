@@ -52,25 +52,31 @@ Below are example commands for running the different pipelines available in this
 
 1. Randomized Data Pipeline
 First, generate the multi-stage or single-stage random data with custom boundaries:
+```bash
 python generateRandomdata.py mode=multi_stage n_samples=10000 +custom_min=1.2 +custom_max=1.4
-
+```
 Next, train the model using the generated random data and a pre-trained checkpoint:
+```bash
 python TensorJAX_Random.py mode=multi_stage stage_tag="1.4_1.6" transfer_checkpoint="./trained_models/random/multi_stage/seed_42/20ksamples/maxwell_B_1.2_1.4/best_checkpoint.msgpack" training.batch_size=128 training.learning_rate=1e-4 +n_samples=10000
-
+```
 2. Uniform Data Pipeline
 Generate the uniformly distributed Maxwell data:
+```bash
 python generateUniformMaxwell.py mode=multi_stage n_samples=10000 seed=42
-
+```
 Train the Net2Net architecture on the uniform data, defining the specific layers and epochs:
+```bash
 python TensorJAX_UniformNet2Net.py mode=multi_stage +stage="1.0_1.8" +n_samples=10000 model.layers="[9,128,128,128,6]" +training.batch_size=32 +training.learning_rate=1e-4 +training.num_epochs=500 transfer_checkpoint=null config_name="uniform_net2net_config"
-
+```
 3. Flow Data (Mining) Pipeline
 Generate specific flow data, such as biaxial extension, defining the rates and boundaries:
+```bash
 python generateFlowMaxwell_Mining.py mode=multi_stage flow_types="['biaxial_extension']" ++n_samples=10000 ++custom_min=1.0 ++custom_max=1.2 ++rate_min=0.0 ++rate_max=2.0
-
+```
 Train the model on the generated flow data while enforcing physics constraints (lambda_phys):
+```bash
 python TensorJAX_Flownet2net.py --config-name flow_net2net_config mode=multi_stage flow_types="['biaxial_extension']" ++stage="1.0_1.2" ++n_samples=3000 transfer_checkpoint=null ++model.layers="[9, 128, 128, 128, 6]" ++training.batch_size=64 ++training.learning_rate=1e-4 ++training.weight_decay=1e-4 ++training.num_epochs=1500 ++training.lambda_phys=0.3
-
+```
 ## Acknowledgements and Foundational Work
 This research builds upon the extraordinary contributions of several authors in the fields of Physics-Informed Neural Networks (PINNs), complex fluid rheology, and transfer learning methodologies. While not exhaustive, this work is particularly indebted to the foundational concepts established in the following papers:
 
