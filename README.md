@@ -105,6 +105,7 @@ Contributions, issues, and feature requests are welcome. Feel free to check the 
 
 ## Citation
 If you use this code or dataset in your academic research, please cite this repository:
+```bash
 @software{boddeda_constitutive_models_2026,
   author = {Boddeda, Mohan},
   title = {Synthetic Data Generation for solving the Maxwell-B Equation},
@@ -113,4 +114,4 @@ If you use this code or dataset in your academic research, please cite this repo
   journal = {GitHub repository},
   howpublished = {\url{[https://github.com/mohanboddeda/constitutive-models](https://github.com/mohanboddeda/constitutive-models)}}
 }
-
+```
