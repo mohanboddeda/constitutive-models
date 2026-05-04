@@ -35,15 +35,17 @@ The codebase supports several non-Newtonian fluid models, including:
 
 To run the codes in this repository, you will need to install the required dependencies. It is highly recommended to do this inside a Python virtual environment.
 
+
 1. Clone the repository to your local machine and navigate into the folder:
-```bash
+ ```bash
 git clone [https://github.com/mohanboddeda/constitutive-models.git](https://github.com/mohanboddeda/constitutive-models.git)
 cd constitutive-models
-
-2. Install all necessary packages automatically by running this command in your terminal:
+```
+3. Install all necessary packages automatically by running this command in your terminal:
+```bash
 pip install -r requirements.txt
-
-How to Run the Code (Examples)
+```
+### How to Run the Code (Examples)
 This project uses a modular approach, where data is generated first and then fed into the respective JAX training pipelines. You can easily modify hyperparameters directly from the command line.
 
 Below are example commands for running the different pipelines available in this repository:
@@ -69,7 +71,7 @@ python generateFlowMaxwell_Mining.py mode=multi_stage flow_types="['biaxial_exte
 Train the model on the generated flow data while enforcing physics constraints (lambda_phys):
 python TensorJAX_Flownet2net.py --config-name flow_net2net_config mode=multi_stage flow_types="['biaxial_extension']" ++stage="1.0_1.2" ++n_samples=3000 transfer_checkpoint=null ++model.layers="[9, 128, 128, 128, 6]" ++training.batch_size=64 ++training.learning_rate=1e-4 ++training.weight_decay=1e-4 ++training.num_epochs=1500 ++training.lambda_phys=0.3
 
-Acknowledgements and Foundational Work
+### Acknowledgements and Foundational Work
 This research builds upon the extraordinary contributions of several authors in the fields of Physics-Informed Neural Networks (PINNs), complex fluid rheology, and transfer learning methodologies. While not exhaustive, this work is particularly indebted to the foundational concepts established in the following papers:
 
 1. Physics-Informed Neural Networks: Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 686-707.
